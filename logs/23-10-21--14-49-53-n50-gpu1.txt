@@ -1,0 +1,27 @@
+23-10-21--14-49-53
+
+nb_nodes=50
+bsz=512
+dim_emb=128
+dim_ff=512
+dim_input_nodes=2
+nb_layers_encoder=6
+nb_layers_decoder=2
+nb_heads=8
+nb_epochs=10000
+nb_batch_per_epoch=2500
+nb_batch_eval=20
+gpu_id=1
+lr=0.0001
+tol=0.001
+batchnorm=True
+max_len_PE=1000
+
+
+Epoch: 0, epoch time: 14.097min, tot time: 0.010day, L_train: 6.899, L_base: 16.073, L_test: 6.932, gap_train(%): 21.198, update: True
+Epoch: 1, epoch time: 14.152min, tot time: 0.020day, L_train: 6.211, L_base: 6.899, L_test: 6.240, gap_train(%): 9.111, update: True
+Epoch: 2, epoch time: 14.154min, tot time: 0.030day, L_train: 6.047, L_base: 6.218, L_test: 6.065, gap_train(%): 6.234, update: True
+Epoch: 3, epoch time: 14.104min, tot time: 0.039day, L_train: 5.983, L_base: 6.048, L_test: 6.000, gap_train(%): 5.119, update: True
+Epoch: 4, epoch time: 14.087min, tot time: 0.049day, L_train: 5.946, L_base: 5.980, L_test: 5.969, gap_train(%): 4.467, update: True
+Epoch: 5, epoch time: 14.134min, tot time: 0.059day, L_train: 5.934, L_base: 5.948, L_test: 5.952, gap_train(%): 4.244, update: True
+Epoch: 6, epoch time: 14.127min, tot time: 0.069day, L_train: 5.921, L_base: 5.931, L_test: 5.942, gap_train(%): 4.015, update: True
