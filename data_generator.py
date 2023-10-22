@@ -41,7 +41,7 @@ def create_tsp_data(num_samples, num_cities, folder_name):
     _ = GenerateTSP(num_samples, num_cities, folder_name)
 
 if __name__ == "__main__":
-    total_samples = 1280000
+    total_samples = 12800
     num_cities = 50
     num_cores = 112
     samples_per_core = total_samples // num_cores

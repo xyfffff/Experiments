@@ -28,5 +28,5 @@ def merge_tsp_data(output_file):
     print(f"Merged data has been saved to {output_file}")
 
 if __name__ == "__main__":
-    output_file = 'train_data_50.pth'
+    output_file = 'val_data_50.pth'
     merge_tsp_data(output_file)
